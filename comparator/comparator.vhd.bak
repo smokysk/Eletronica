@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity comparator is
+port (A,B: in std_logic_vector(0 to 7);
+EQ: out std_logic);
+end comparator;
+architecture one of comparator is
+begin
+EQ <= ‘1’ when (A=B) else ‘0’;
+end one;
