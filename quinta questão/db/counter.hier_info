@@ -1,0 +1,52 @@
+|counter
+clk_50Mhz => divfreq:b2v_inst.clk_50Mhz
+clock_out <= divfreq:b2v_inst.clk_1
+saidas[0] <= contador7seg:b2v_inst2.saidas[0]
+saidas[1] <= contador7seg:b2v_inst2.saidas[1]
+saidas[2] <= contador7seg:b2v_inst2.saidas[2]
+saidas[3] <= contador7seg:b2v_inst2.saidas[3]
+saidas[4] <= contador7seg:b2v_inst2.saidas[4]
+saidas[5] <= contador7seg:b2v_inst2.saidas[5]
+saidas[6] <= contador7seg:b2v_inst2.saidas[6]
+
+
+|counter|divfreq:b2v_inst
+clk_50Mhz => clk_1~reg0.CLK
+clk_50Mhz => count[0].CLK
+clk_50Mhz => count[1].CLK
+clk_50Mhz => count[2].CLK
+clk_50Mhz => count[3].CLK
+clk_50Mhz => count[4].CLK
+clk_50Mhz => count[5].CLK
+clk_50Mhz => count[6].CLK
+clk_50Mhz => count[7].CLK
+clk_50Mhz => count[8].CLK
+clk_50Mhz => count[9].CLK
+clk_50Mhz => count[10].CLK
+clk_50Mhz => count[11].CLK
+clk_50Mhz => count[12].CLK
+clk_50Mhz => count[13].CLK
+clk_50Mhz => count[14].CLK
+clk_50Mhz => count[15].CLK
+clk_50Mhz => count[16].CLK
+clk_1 <= clk_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|contador7seg:b2v_inst2
+clk_in => saidas[0]~reg0.CLK
+clk_in => saidas[1]~reg0.CLK
+clk_in => saidas[2]~reg0.CLK
+clk_in => saidas[3]~reg0.CLK
+clk_in => saidas[4]~reg0.CLK
+clk_in => saidas[5]~reg0.CLK
+clk_in => saidas[6]~reg0.CLK
+clk_in => est~1.DATAIN
+saidas[0] <= saidas[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[1] <= saidas[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[2] <= saidas[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[3] <= saidas[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[4] <= saidas[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[5] <= saidas[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saidas[6] <= saidas[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

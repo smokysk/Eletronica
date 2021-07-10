@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/smokysk/vhdl files/eletronica_digital/processo/processo.vhd
+source_file = 1, /home/smokysk/vhdl files/eletronica_digital/processo/Waveform.vwf
+source_file = 1, /home/smokysk/vhdl files/eletronica_digital/processo/db/processo.cbx.xml
+source_file = 1, /home/smokysk/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/smokysk/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/smokysk/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/smokysk/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = processo
+instance = comp, \G~I , G, processo, 1
+instance = comp, \D~I , D, processo, 1
+instance = comp, \C~0 , C~0, processo, 1
+instance = comp, \L~I , L, processo, 1
+instance = comp, \C~1 , C~1, processo, 1
+instance = comp, \R~I , R, processo, 1
+instance = comp, \C~I , C, processo, 1

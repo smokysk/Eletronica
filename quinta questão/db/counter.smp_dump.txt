@@ -1,0 +1,19 @@
+
+State Machine - |counter|contador7seg:b2v_inst2|est
+Name est.nf est.ne est.nd est.nc est.nb est.na est.n9 est.n8 est.n7 est.n6 est.n5 est.n4 est.n3 est.n2 est.n1 est.n0 
+est.n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+est.n1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+est.n2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+est.n3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+est.n4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+est.n5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+est.n6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+est.n7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+est.n8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+est.n9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+est.na 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+est.nb 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+est.nc 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+est.nd 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+est.ne 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+est.nf 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

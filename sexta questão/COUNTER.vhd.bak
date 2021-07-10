@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity counter_0_to_59 is
+port(
+	CLK						: in std_logic;
+	D, S, R				:	in 	std_logic_vector(6 downto 0);
+	Q, QB					:	out std_logic_vector(6 downto 0)
+);
+end counter_0_to_59;
+
+architecture MAIN of counter_0_to_59 is component DFF is
+port(
+	D, CLK, S, R			:	in 	std_logic;
+	Q, QB							:	out std_logic
+);
+end component DFF;
+
+	signal QB_WIRE:	std_logic_vector(6 downto 0);
+	signal Q_WIRE	:	std_logic_vector(3 downto 0);
+	signal R_WIRE	:	std_logic_vector(4 downto 0);
+
+begin
+	D(0)<=QB_WIRE(0);
+	DFF_1: DFF port map(D(0),CLK,S(0),R(0),Q(0),QB_WIRE(0));
+
+end MAIN;

@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {evenparity.vho evenparity_vhd.sdo}}
+	{{"Fast Model"} {evenparity_fast.vho evenparity_vhd_fast.sdo}}
+}

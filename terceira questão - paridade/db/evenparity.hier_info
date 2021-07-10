@@ -1,0 +1,14 @@
+|evenparity
+A[0] => aux[0].IN0
+A[1] => aux[0].IN1
+A[2] => aux[1].IN1
+A[3] => aux[2].IN1
+A[4] => aux[3].IN1
+A[5] => aux[4].IN1
+A[6] => aux[5].IN1
+A[7] => aux[6].IN1
+A[8] => aux[7].IN1
+A[9] => paridadePar~0.IN1
+paridadePar <= paridadePar~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

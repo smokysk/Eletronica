@@ -1,0 +1,17 @@
+Package textio
+Package std_logic_1164
+Package standard
+counter:counter(main)
+	Process line__47
+	Process line__46
+	Process line__36
+	Process line__35
+	FFD_6:ffd(main)
+	FFD_5:ffd(main)
+	FFD_4:ffd(main)
+	FFD_3:ffd(main)
+	FFD_2:ffd(main)
+	FFD_1:ffd(main)
+	FFD_0:ffd(main)
+	DECODER_2:bcd_decoder(main)
+	DECODER_1:bcd_decoder(main)

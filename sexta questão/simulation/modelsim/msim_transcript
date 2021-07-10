@@ -1,0 +1,314 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do COUNTER_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/wesle/Desktop/COUNTER/COUNTER/COUNTER.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COUNTER
+# -- Compiling architecture MAIN of COUNTER
+# vcom -93 -work work {C:/Users/wesle/Desktop/COUNTER/COUNTER/FFD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FFD
+# -- Compiling architecture MAIN of FFD
+# vcom -93 -work work {C:/Users/wesle/Desktop/COUNTER/COUNTER/BCD_DECODER.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BCD_DECODER
+# -- Compiling architecture MAIN of BCD_DECODER
+# vcom -93 -work work {C:/Users/wesle/Desktop/COUNTER/COUNTER/CLK_DIVISOR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CLK_DIVISOR
+# -- Compiling architecture MAIN of CLK_DIVISOR
+# 
+vsim -voptargs=+acc work.counter
+# vsim -voptargs=+acc work.counter 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter(main)
+# Loading ieee.numeric_std(body)
+# Loading work.clk_divisor(main)
+# Loading work.ffd(main)
+# Loading work.bcd_decoder(main)
+add wave -position insertpoint  \
+sim:/counter/CLK \
+sim:/counter/CLK_OUT
+add wave -position insertpoint  \
+sim:/counter/DSP_D \
+sim:/counter/DSP_U \
+sim:/counter/Q_D \
+sim:/counter/Q_U \
+sim:/counter/RST \
+sim:/counter/S_WIRE
+add wave -position insertpoint  \
+sim:/counter/R_WIRE
+run
+force -freeze sim:/counter/RST 1 0
+run
+force -freeze sim:/counter/RST 0 0
+run
+force -freeze sim:/counter/S_WIRE 0000000 0
+run
+force -freeze sim:/counter/CLK 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/counter/CLK_OUT 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/counter/CLK_OUT 1 0, 0 {25 ps} -r 50
+run
+run
+restart
+run
+run
+restart
+run
+force -freeze sim:/counter/RST 1 0
+run
+force -freeze sim:/counter/RST 0 0
+run
+force -freeze sim:/counter/S_WIRE 0000000 0
+run
+force -freeze sim:/counter/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/counter/CLK_OUT 1 0, 0 {25 ps} -r 50
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/wesle/Desktop/COUNTER/COUNTER/simulation/modelsim/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/wesle/Desktop/COUNTER/COUNTER/simulation/modelsim/SIMULACAO.do

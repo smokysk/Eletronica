@@ -1,0 +1,309 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLK'
+Slack : -3.325
+TNS   : -73.370
+
+Type  : Slow Model Setup 'FFD:FFD_5|Q_TEMP'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow Model Setup 'FFD:FFD_4|Q_TEMP'
+Slack : 1.026
+TNS   : 0.000
+
+Type  : Slow Model Setup 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : 1.177
+TNS   : 0.000
+
+Type  : Slow Model Setup 'FFD:FFD_1|Q_TEMP'
+Slack : 1.249
+TNS   : 0.000
+
+Type  : Slow Model Setup 'FFD:FFD_2|Q_TEMP'
+Slack : 1.253
+TNS   : 0.000
+
+Type  : Slow Model Setup 'FFD:FFD_0|Q_TEMP'
+Slack : 1.255
+TNS   : 0.000
+
+Type  : Slow Model Setup 'FFD:FFD_3|Q_TEMP'
+Slack : 1.527
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLK'
+Slack : -2.691
+TNS   : -2.691
+
+Type  : Slow Model Hold 'FFD:FFD_3|Q_TEMP'
+Slack : -1.275
+TNS   : -1.275
+
+Type  : Slow Model Hold 'FFD:FFD_0|Q_TEMP'
+Slack : -1.003
+TNS   : -1.003
+
+Type  : Slow Model Hold 'FFD:FFD_2|Q_TEMP'
+Slack : -1.001
+TNS   : -1.001
+
+Type  : Slow Model Hold 'FFD:FFD_1|Q_TEMP'
+Slack : -0.997
+TNS   : -0.997
+
+Type  : Slow Model Hold 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : -0.925
+TNS   : -0.925
+
+Type  : Slow Model Hold 'FFD:FFD_4|Q_TEMP'
+Slack : -0.774
+TNS   : -0.774
+
+Type  : Slow Model Hold 'FFD:FFD_5|Q_TEMP'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'FFD:FFD_4|Q_TEMP'
+Slack : -1.288
+TNS   : -1.288
+
+Type  : Slow Model Recovery 'FFD:FFD_5|Q_TEMP'
+Slack : -1.236
+TNS   : -1.236
+
+Type  : Slow Model Recovery 'FFD:FFD_3|Q_TEMP'
+Slack : -0.787
+TNS   : -0.787
+
+Type  : Slow Model Recovery 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : -0.356
+TNS   : -0.356
+
+Type  : Slow Model Recovery 'FFD:FFD_1|Q_TEMP'
+Slack : -0.284
+TNS   : -0.284
+
+Type  : Slow Model Recovery 'FFD:FFD_2|Q_TEMP'
+Slack : -0.102
+TNS   : -0.102
+
+Type  : Slow Model Recovery 'FFD:FFD_0|Q_TEMP'
+Slack : -0.100
+TNS   : -0.100
+
+Type  : Slow Model Removal 'FFD:FFD_3|Q_TEMP'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Slow Model Removal 'FFD:FFD_0|Q_TEMP'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Slow Model Removal 'FFD:FFD_2|Q_TEMP'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow Model Removal 'FFD:FFD_1|Q_TEMP'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow Model Removal 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Slow Model Removal 'FFD:FFD_5|Q_TEMP'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow Model Removal 'FFD:FFD_4|Q_TEMP'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK'
+Slack : -1.631
+TNS   : -41.957
+
+Type  : Slow Model Minimum Pulse Width 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_0|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_1|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_2|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_3|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_4|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'FFD:FFD_5|Q_TEMP'
+Slack : -0.611
+TNS   : -1.222
+
+Type  : Fast Model Setup 'CLK'
+Slack : -0.840
+TNS   : -11.805
+
+Type  : Fast Model Setup 'FFD:FFD_5|Q_TEMP'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FFD:FFD_4|Q_TEMP'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : 0.841
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FFD:FFD_1|Q_TEMP'
+Slack : 0.858
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FFD:FFD_2|Q_TEMP'
+Slack : 0.886
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FFD:FFD_0|Q_TEMP'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Fast Model Setup 'FFD:FFD_3|Q_TEMP'
+Slack : 0.961
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLK'
+Slack : -1.721
+TNS   : -1.721
+
+Type  : Fast Model Hold 'FFD:FFD_3|Q_TEMP'
+Slack : -0.581
+TNS   : -0.581
+
+Type  : Fast Model Hold 'FFD:FFD_0|Q_TEMP'
+Slack : -0.511
+TNS   : -0.511
+
+Type  : Fast Model Hold 'FFD:FFD_2|Q_TEMP'
+Slack : -0.506
+TNS   : -0.506
+
+Type  : Fast Model Hold 'FFD:FFD_1|Q_TEMP'
+Slack : -0.478
+TNS   : -0.478
+
+Type  : Fast Model Hold 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : -0.461
+TNS   : -0.461
+
+Type  : Fast Model Hold 'FFD:FFD_4|Q_TEMP'
+Slack : -0.400
+TNS   : -0.400
+
+Type  : Fast Model Hold 'FFD:FFD_5|Q_TEMP'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'FFD:FFD_4|Q_TEMP'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast Model Recovery 'FFD:FFD_5|Q_TEMP'
+Slack : -0.005
+TNS   : -0.005
+
+Type  : Fast Model Recovery 'FFD:FFD_3|Q_TEMP'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'FFD:FFD_1|Q_TEMP'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'FFD:FFD_2|Q_TEMP'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'FFD:FFD_0|Q_TEMP'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_3|Q_TEMP'
+Slack : 0.003
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_0|Q_TEMP'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_2|Q_TEMP'
+Slack : 0.052
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_1|Q_TEMP'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast Model Removal 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_5|Q_TEMP'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast Model Removal 'FFD:FFD_4|Q_TEMP'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK'
+Slack : -1.380
+TNS   : -34.380
+
+Type  : Fast Model Minimum Pulse Width 'CLK_DIVISOR:CLK_DIV|TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_0|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_1|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_2|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_3|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_4|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'FFD:FFD_5|Q_TEMP'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

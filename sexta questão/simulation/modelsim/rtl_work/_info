@@ -1,0 +1,147 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\wesle\Desktop\COUNTER\COUNTER\simulation\modelsim
+Ebcd_decoder
+Z1 w1625867635
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\wesle\Desktop\COUNTER\COUNTER\simulation\modelsim
+Z5 8C:/Users/wesle/Desktop/COUNTER/COUNTER/BCD_DECODER.vhd
+Z6 FC:/Users/wesle/Desktop/COUNTER/COUNTER/BCD_DECODER.vhd
+l0
+L5
+V5Z]L67K4J=fK0Bc_^7QBR1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1625871234.542000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/wesle/Desktop/COUNTER/COUNTER/BCD_DECODER.vhd|
+Z10 !s107 C:/Users/wesle/Desktop/COUNTER/COUNTER/BCD_DECODER.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 2fSXok<79L43I7B6=e9@W2
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 11 bcd_decoder 0 22 5Z]L67K4J=fK0Bc_^7QBR1
+l15
+L13
+VEGChU0BF_YmYRR=]Yj_d53
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 UYS=US@ebN:gN_O<SAec?3
+!i10b 1
+Eclk_divisor
+Z13 w1625869906
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8C:/Users/wesle/Desktop/COUNTER/COUNTER/CLK_DIVISOR.vhd
+Z16 FC:/Users/wesle/Desktop/COUNTER/COUNTER/CLK_DIVISOR.vhd
+l0
+L5
+VKefWLjBNn3[eJZ5ziG^ma3
+!s100 i7F6NJhGPJlBG9<jLPlF@1
+R7
+31
+!i10b 1
+Z17 !s108 1625871234.942000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/wesle/Desktop/COUNTER/COUNTER/CLK_DIVISOR.vhd|
+Z19 !s107 C:/Users/wesle/Desktop/COUNTER/COUNTER/CLK_DIVISOR.vhd|
+R11
+R12
+Amain
+R14
+R2
+R3
+DEx4 work 11 clk_divisor 0 22 KefWLjBNn3[eJZ5ziG^ma3
+l17
+L12
+V9me?TE:O?ZOL2;42e31am0
+!s100 z6Km[NI0`f0BM;=B<k]HI0
+R7
+31
+!i10b 1
+R17
+R18
+R19
+R11
+R12
+Ecounter
+Z20 w1625870781
+R2
+R3
+R4
+Z21 8C:/Users/wesle/Desktop/COUNTER/COUNTER/COUNTER.vhd
+Z22 FC:/Users/wesle/Desktop/COUNTER/COUNTER/COUNTER.vhd
+l0
+L5
+V4]>cnSI?>W_9XCc;RYcYX2
+R7
+31
+Z23 !s108 1625871233.532000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/wesle/Desktop/COUNTER/COUNTER/COUNTER.vhd|
+Z25 !s107 C:/Users/wesle/Desktop/COUNTER/COUNTER/COUNTER.vhd|
+R11
+R12
+!s100 R2NcXFjLf^9SV6O2RICb62
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 7 counter 0 22 4]>cnSI?>W_9XCc;RYcYX2
+l47
+L13
+VIfzkLcO_]5Q?Ij>UC^Tz92
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 d<WoSTa9JR:@LT^M6_VZ]3
+!i10b 1
+Effd
+Z26 w1625868307
+R2
+R3
+R4
+Z27 8C:/Users/wesle/Desktop/COUNTER/COUNTER/FFD.vhd
+Z28 FC:/Users/wesle/Desktop/COUNTER/COUNTER/FFD.vhd
+l0
+L5
+VdHJQ[d[IjXB@j[<[WKm7J0
+R7
+31
+Z29 !s108 1625871234.034000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/wesle/Desktop/COUNTER/COUNTER/FFD.vhd|
+Z31 !s107 C:/Users/wesle/Desktop/COUNTER/COUNTER/FFD.vhd|
+R11
+R12
+!s100 j_dEX_^Fl[OYRA381:5aO2
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 3 ffd 0 22 dHJQ[d[IjXB@j[<[WKm7J0
+l17
+L13
+V>dzcSj7O]856_P`KIG8`90
+R7
+31
+R29
+R30
+R31
+R11
+R12
+!s100 9Bk<Id<5CG=PdW5?MVmLT1
+!i10b 1
